@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@rive-app/react-canvas':
+    specifier: ^3.0.48
+    version: 3.0.48(react@18.2.0)
   '@types/node':
     specifier: 20.2.1
     version: 20.2.1
@@ -217,6 +220,19 @@ packages:
       open: 9.1.0
       picocolors: 1.0.0
       tslib: 2.5.2
+    dev: false
+
+  /@rive-app/canvas@1.1.7:
+    resolution: {integrity: sha512-zWtbLSAwfJ4OaqjdSPVF/PDgMW1ncA8pnCPkZ7HwxMNQ6VfFlSHvXCToOCMRmudXbepCbTKXlg4C1nv684wXLA==}
+    dev: false
+
+  /@rive-app/react-canvas@3.0.48(react@18.2.0):
+    resolution: {integrity: sha512-L5tzPZ1Rc9lrmE6jBUDZa/EvKiUTWGCmJgQKPWO2iZO27UMjkYAdfvpflm67qWYOLVoQUGJ5e9Vj+i5PXadPVA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@rive-app/canvas': 1.1.7
+      react: 18.2.0
     dev: false
 
   /@rushstack/eslint-patch@1.2.0:
